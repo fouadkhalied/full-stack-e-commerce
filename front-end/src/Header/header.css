@@ -1,0 +1,252 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* first header */
+.Header
+{
+  background-image: linear-gradient(to right, #000000 ,  rgb(226, 43, 180));
+  height: 60px;
+  width: 100%;
+  border: 1px solid white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.header-div-icons-circle
+{
+  position: relative;
+  left: 55px;
+  bottom: 10px;
+  border: 2px solid white;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.header-brand , .search_query
+{
+  position: relative;
+  bottom: 13px;
+}
+.header-search-div
+{
+  margin-left: 150px;
+}
+.search_query
+{
+  width: 400px;
+  height: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.search_query:focus
+{
+  outline: none;
+}
+.header-brand
+{
+  font-size: 40px !important;
+  font-weight: bold;
+  font-style: italic;
+  color: #000;
+}
+.header-icons-div
+{
+  display: flex;
+}
+.header-favo-icon
+{
+  font-size: 30px; 
+  position: relative;
+  bottom: 17px;   
+}
+.header-cart-icon
+{
+  font-size: 30px;  
+  position: relative;
+  bottom: 18px; 
+}
+.header-favo-icon:hover
+{
+  color: red !important;
+}
+.header-cart-icon:hover
+{
+  color: white !important;
+}
+.header-log-icon:hover
+{
+  color: white !important;
+}
+.header-icons-div1 , .header-icons-div2
+{
+  display: flex;
+}
+.header-icons-div1 .header-icon
+{
+  position: relative;
+  bottom: 13px;
+  font-size: 20px;
+}
+.btn3100
+{
+  border: 1px solid white;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.btn6100
+{
+  position: absolute;
+  bottom: 60px;
+  left: 640px;
+  font-weight: bold !important;
+}
+/* second header */
+.header2
+{
+  width: 5%;
+  height: 100vh;
+  display: block;
+  position: absolute !important;
+  text-align: center;
+  z-index: 4;
+  background-color: white;
+}
+.header2 .header-bars-icon
+{
+  font-size: 30px;
+  display: block;
+  margin-top: -9px;
+  margin: auto;
+}
+.header2 .header-bars-icon svg
+{
+  color: black;
+  position: relative;
+  top: -19px;
+}
+.header2 .header-bars-icon1
+{
+  display: block;
+  margin-top: 50px;
+}
+.header2 img , .header2 svg
+{
+  position: relative;
+  top: 0px;
+  right: 7px;
+}
+.header2 li div
+{
+  width: 80px;
+}
+/* register page */
+.Register
+{
+  margin: auto;
+  margin-top: 140px;
+}
+.Register-app
+{
+  margin: auto;
+  margin-top: 60px;
+}
+.Register-app-page
+{
+  border: 1px solid rgb(255, 255, 255);
+  width: 45%;
+  min-height: 390px;
+  border-radius: 20px;
+  margin: auto;
+  background-image: linear-gradient(to right, #000000 ,  rgb(226, 43, 180));
+
+}
+.Register-app-page-div
+{
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Register-app-page-div input
+{
+  border-radius: 20px;
+  width: 80%;
+  height: 40px;
+  padding-left: 15px;
+}
+.Register-app-page-btn
+{
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+}
+/* instructions */
+
+.valid
+{
+   color: green;
+   position: relative;
+   left: 2px;
+   top: 3px;
+   font-size: 22px;
+}
+.hide
+{
+  display: none;
+}
+.invalid
+{
+  position: relative;
+   left: 2px;
+   top: 3px;
+   font-size: 22px;
+  color: red;
+}
+.instructions
+{
+  display: block;
+  width: 80%;
+  color: white;
+}
+.offscreen
+{
+  display: none;
+}
+.errmsg
+{
+  display: block;
+}
+.warn
+{
+  color: red;
+  display: block;
+}
+/* //////////////////////////////////////// */
+
+.cart-div
+{
+  margin-top: 90px;
+}
+.cart-div-ele
+{  
+  border: 2px solid black;
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+.cart-div-ele div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}

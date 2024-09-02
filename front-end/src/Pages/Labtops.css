@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .products-dell-div
+{
+    /* background-image: linear-gradient(to left, #550242 ,  rgb(172, 169, 171)); */
+
+.header-search-div123
+{
+  width: 100%;
+  z-index: 14;
+  position: fixed;
+}
+.search_query
+{
+  width: 400px;
+  height: 20px;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+  top: -92px;
+  right: 120px;
+  z-index: 14;
+}
+/* ////////////////////////////////////////////////////////// */
+.products-dell
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.items
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.items-img
+{
+    width: 40%;
+    position: relative;
+}
+.items-content
+{
+   padding-left: 20px;
+}
+.items
+{
+    display: flex;
+}
+.items-content-para p
+{
+    font-size: 22px;
+}
+.items-content-price , .items-content-ship
+{
+    font-weight: 500;
+}
+.dell-item-div
+{ 
+    width: 90%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: 80px;
+}
+.dell-item-div-sidebar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 340px;
+    width: 5%;
+}
+.dell-item-div-sidebar-div
+{
+    width: 60px;
+    height: 50px;
+    border: 1px solid rgb(116, 2, 110);
+    cursor: pointer;
+    border-radius: 20%;
+    text-align: center;
+}
+.dell-item-div-sidebar img
+{
+    position: relative;
+    top: 3px;
+    border: 1px solid black;
+}
+.dell-item-div-img-buttons
+{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.dell-item-div-img-buttons button
+{
+    background-image: linear-gradient(to right, #2e0f27 ,  rgb(226, 43, 180));
+    border: none;
+    height: 45px;
+    width: 150px;
+    font-weight: bold;
+}
+.dell-item-div-img-buttons .faheart
+{
+    font-size: 24px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+.dell-item-div-img
+{
+    width: 55%;
+    height: 450px;
+}
+.dell-item-div-content
+{
+    width: 40%;
+}
+.dell-item-div-img-content-paragraph
+{
+    word-wrap: break-word;
+}
